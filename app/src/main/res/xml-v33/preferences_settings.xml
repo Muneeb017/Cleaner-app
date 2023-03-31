@@ -18,8 +18,8 @@
             app:summary="@string/summary_preference_settings_language"
             app:icon="@drawable/ic_language">
             <intent
-                android:targetPackage="com.d4rk.cleaner.plus"
-                android:targetClass="com.d4rk.cleaner.plus.ui.language.LanguageActivity"/>
+                android:targetPackage="com.muneeb.cleaner.plus"
+                android:targetClass="com.muneeb.cleaner.plus.ui.language.LanguageActivity"/>
         </androidx.preference.Preference>
         <androidx.preference.SwitchPreferenceCompat
             app:defaultValue="false"
@@ -126,14 +126,14 @@
             app:title="@string/check_for_updates">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://play.google.com/store/apps/details?id=com.d4rk.cleaner.plus"/>
+                android:data="https://play.google.com/store/apps/details?id=com.muneeb.cleaner.plus"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             android:icon="@drawable/ic_experimental"
             app:title="@string/subscribe_to_beta">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://play.google.com/apps/testing/com.d4rk.cleaner.plus"/>
+                android:data="https://play.google.com/apps/testing/com.muneeb.cleaner.plus"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             app:key="@string/key_changelog"
@@ -148,28 +148,28 @@
             app:title="@string/privacy_policy">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://sites.google.com/view/d4rk7355608/more/apps/privacy-policy"/>
+                android:data="https://sites.google.com/view/muneeb7355608/more/apps/privacy-policy"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             app:icon="@drawable/ic_terms_of_service"
             app:title="@string/terms_of_service">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://sites.google.com/view/d4rk7355608/more/apps/terms-of-service"/>
+                android:data="https://sites.google.com/view/muneeb7355608/more/apps/terms-of-service"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             app:icon="@drawable/ic_code_of_conduct"
             app:title="@string/code_of_conduct">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://sites.google.com/view/d4rk7355608/more/code-of-conduct"/>
+                android:data="https://sites.google.com/view/muneeb7355608/more/code-of-conduct"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             android:icon="@drawable/ic_permissions"
             app:title="@string/permissions">
             <intent
-                android:targetPackage="com.d4rk.cleaner.plus"
-                android:targetClass="com.d4rk.cleaner.plus.ui.permissions.PermissionsActivity"/>
+                android:targetPackage="com.muneeb.cleaner.plus"
+                android:targetClass="com.muneeb.cleaner.plus.ui.permissions.PermissionsActivity"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             app:key="open_source_licenses"
@@ -179,8 +179,8 @@
             android:icon="@drawable/ic_faq"
             app:title="@string/faq">
             <intent
-                android:targetPackage="com.d4rk.cleaner.plus"
-                android:targetClass="com.d4rk.cleaner.plus.ui.faq.FaqActivity"/>
+                android:targetPackage="com.muneeb.cleaner.plus"
+                android:targetClass="com.muneeb.cleaner.plus.ui.faq.FaqActivity"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             app:icon="@drawable/ic_license"
@@ -197,8 +197,8 @@
             app:icon="@drawable/ic_feedback"
             app:title="@string/feedback">
             <intent
-                     android:targetPackage="com.d4rk.cleaner.plus"
-                     android:targetClass="com.d4rk.cleaner.plus.ui.feedback.FeedbackActivity"/>
+                     android:targetPackage="com.muneeb.cleaner.plus"
+                     android:targetClass="com.muneeb.cleaner.plus.ui.feedback.FeedbackActivity"/>
         </androidx.preference.Preference>
         <androidx.preference.Preference
             app:key="@string/key_share"

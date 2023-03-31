@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">Cleaner Plus</string>
     <string name="app_version">Version %1$s (%2$d)</string>
-    <string name="app_description">The last Android Cleaner you will ever need with Google inspired material design made by D4rK to be more simplistic and easy to use!</string>
-    <string name="copyright">© Copyright %1s made by D4rK!</string>
+    <string name="app_description">The last Android Cleaner you will ever need with Google inspired material design made by Muneeb to be more simplistic and easy to use!</string>
+    <string name="copyright">© Copyright %1s made by Muneeb!</string>
     <string name="made_in">Made with ❤ in Romania!</string>
     <string name="clean">Clean</string>
     <string name="analyze">Analyze</string>

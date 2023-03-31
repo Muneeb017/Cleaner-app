@@ -7,9 +7,9 @@ plugins {
 }
 android {
     compileSdk 33
-    namespace 'com.d4rk.cleaner.plus'
+    namespace 'com.muneeb.cleaner.plus'
     defaultConfig {
-        applicationId 'com.d4rk.cleaner.plus'
+        applicationId 'com.muneeb.cleaner.plus'
         minSdkVersion 26
         targetSdkVersion 33
         versionCode 8
